@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/heartLayout"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/image_heart_red"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="500dp"
+                    android:src="@drawable/ic_heart_red"
+                    android:visibility="invisible"
+                    android:contentDescription="TODO" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/image_heart"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="200dp"
+                    android:src="@drawable/ic_heart_white"
+                    android:visibility="visible"
+                    android:contentDescription="TODO" />
+
+            </RelativeLayout>
+
+
+</RelativeLayout>
+
